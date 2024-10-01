@@ -1,0 +1,136 @@
+example 1
+package star;
+
+public class main {
+	public static void main(String[] args) {
+		if (7>3) {
+			System.out.println ("Hi");
+		}
+	}
+}
+
+example 2
+
+package star;
+
+public class main {
+	public static void main(String[] args) {
+		if (-44>100) {
+			System.out.println ("Hi");
+		} else {
+			System.out.println ("Hello");
+		}
+	}
+}
+
+example 3
+
+package star;
+
+public class main {
+	public static void main(String[] args) {
+		int x=55;
+		if (x==9) {
+			System.out.println("First");
+		}
+		else if (x>= 10) {
+			System.out.println ("Second");
+		}
+		else 
+			System.out.println ("Third");
+	}
+}
+
+example 4
+package star;
+
+public class main {
+	public static void main(String[] args) {
+		String result = (4>2)? "Good":"Bad";
+		System.out.println (result);
+	}
+}
+
+example 5
+
+package star;
+
+public class main {
+	public static void main(String[] args) {
+		int day = 1;
+		switch (day) {
+		case 1:
+			System.out.println ("Mon");
+			break;
+		case 2:
+			System.out.println ("Tue");
+			break;
+		default:
+			System.out.println ("Invalid Input");
+		}
+	}
+}
+
+example 6
+
+package star;
+
+public class main {
+	public static void main(String[] args) {
+		while (2>0) {
+			System.out.println ("HI");
+		}
+	}
+}
+
+example 7
+
+package star;
+
+public class main {
+	public static void main(String[] args) {
+		int x=0;
+		while (x<3) {
+			System.out.println ("Hi " + x );
+			x++;
+		}
+	}
+}
+
+example 8
+
+package star;
+
+public class main {
+	public static void main(String[] args) {
+		do {
+			System.out.println ("hello");
+		} while (3>100);
+	}
+}
+
+example 9
+
+package star;
+
+public class main {
+	public static void main(String[] args) {
+		for (int x=0; x<3; x++) {
+			System.out.println ("Number: " + x);
+		}
+	}
+}
+
+example 10
+
+package star;
+
+public class main {
+	public static void main(String[] args) {
+		for (int x=0; x<3; x++) {
+			System.out.println ("USA");
+			for (int y=0; y<4; y++);
+			System.out.println ("Italy");
+		}
+	}
+}
